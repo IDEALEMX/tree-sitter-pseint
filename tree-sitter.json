@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "pseint",
+      "camelcase": "Pseint",
+      "title": "PSeInt",
+      "scope": "source.pseint",
+      "file-types": [
+        "psc"
+      ],
+      "injection-regex": "^pseint$",
+      "class-name": "TreeSitterPseint"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "GNU General Public License v3.0",
+    "description": "A simple tree-sitter grammar for pseint",
+    "authors": [
+      {
+        "name": "IDEALEMX",
+        "email": "idemx@proton.me",
+        "url": "https://ideale.nekoweb.org/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/IDEALEMX/tree-sitter-pseint.git",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "java": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
